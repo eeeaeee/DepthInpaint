@@ -9,7 +9,7 @@ from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 import wandb 
-from model_directional_query_od import model_final
+from model_depth_guided_atten import model_final
 from utils_train import parse_args, TrainDataset, rgb_to_y, psnr, ssim, VGGPerceptualLoss
 import kornia
 
